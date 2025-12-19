@@ -1,0 +1,18 @@
+{
+  "name": "kitt-line",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js"
+  },
+  "keywords": ["line", "bot", "ai", "assistant"],
+  "author": "Lman",
+  "license": "ISC",
+  "description": "KITT LINE Bot - Personal AI Assistant",
+  "dependencies": {
+    "@line/bot-sdk": "^10.5.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
